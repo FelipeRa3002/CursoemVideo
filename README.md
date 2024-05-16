@@ -1,7 +1,5 @@
 <!--Esse index é para mostrar todos projetos que eu fiz vendo os vídeos do Curso em Vídeo-->
-<!--Eu usei o doctype html mesmo no README.md-->
 <!--as cores que eu vou usar são #E08363 #E0AE63 #E09963 #E06D63 #E0BD63 #E0C4AE-->
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
