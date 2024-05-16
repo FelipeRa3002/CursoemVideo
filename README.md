@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetos do Curso em Vídeo</title>
-    <link rel="shortcut icon" href="estudo.ico">
     <link rel="stylesheet" href="estiloprincipal.css">
 </head>
 <body>
