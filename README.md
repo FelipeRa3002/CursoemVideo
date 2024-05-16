@@ -31,7 +31,7 @@
        </article>
     </main>
     <footer>
-        <p>O github do professor <a href="https://gustavoguanabara.github.io/" target="_blank"class="externo">Gustavo Guanabara</a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFF55"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg> e o seu canal <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo/videos" id="linkdocanal" target="_blank"class="externo">Curso em vídeo</a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFF55"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg></p>
+        <p>O github do professor <a href="https://gustavoguanabara.github.io/" target="_blank"class="externo">Gustavo Guanabara</a> e o seu canal <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo/videos" id="linkdocanal" target="_blank"class="externo">Curso em vídeo</a></p>
     </footer>
 </body>
 </html>
