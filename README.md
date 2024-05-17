@@ -25,7 +25,6 @@
                 <img src="Html e CSS3/Projeto do modulo 2 de 5/Site de Android/imagens/dan-droids.png" alt="Primeiro mascote do Android">
             </picture>
         </abbr>
-        <img src="Html e CSS3/Projeto do modulo 2 de 5/Site de Android/imagens/qrcodedositedoandroid.png" alt="Qr Code do site do Android" class="qrcode">
         <p class="linkparaverosite">link: <a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Projeto%20do%20modulo%202%20de%205/Site%20de%20Android/Android.html" target="_blank" class="projetohmtl">CLICAR AQUI</a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg></p>
        </article>
     </main>
