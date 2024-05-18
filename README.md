@@ -27,6 +27,15 @@
         </abbr>
         <p class="linkparaverosite">link: <a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Projeto%20do%20modulo%202%20de%205/Site%20de%20Android/Android.html" target="_blank" class="projetohmtl">CLICAR AQUI</a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg></p>
        </article>
+        <article>
+        <h1>Projeto de Html e Css módulo 3 de 5</h1>
+        <h2>Descrição</h2>
+        <p>Esse é o projeto do Cordel Moderno do <a href="https://www.recantodasletras.com.br/poesias/3186743"target="_blank" class="linknotexto">Milton Duarte</a>.</p>
+        <abbr title="Uma das várias imagens do projeto do vídeo 20">
+            <center><img src="Html e CSS3/Projeto Cordel/Imagens/pattern001.png"></center>
+        </abbr>
+        <p class="linkparaverosite">link: <a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Projeto%20Cordel/cordel.html" target="_blank" class="projetohmtl">CLICAR AQUI</a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg></p>
+       </article>
     </main>
     <footer> <p>O github do professor <a href="https://gustavoguanabara.github.io/" target="_blank">Gustavo Guanabara</a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFF55"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg> e o seu canal <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo/videos" id="linkdocanal" target="_blank">Curso em vídeo</a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFF55"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg></p>
     </footer>
