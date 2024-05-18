@@ -30,7 +30,7 @@
         <article>
         <h1>Projeto de Html e Css módulo 3 de 5</h1>
         <h2>Descrição</h2>
-        <p>Esse é o projeto do Cordel Moderno do <a href="https://www.recantodasletras.com.br/poesias/3186743"target="_blank" class="linknotexto">Milton Duarte</a>.</p>
+        <p>Esse é o projeto do Cordel Moderno do <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank" class="linknotexto">Milton Duarte</a>.</p>
         <abbr title="Uma das várias imagens do projeto do vídeo 20">
             <center><img src="Html e CSS3/Projeto Cordel/Imagens/pattern001.png"></center>
         </abbr>
