@@ -69,4 +69,4 @@ a.linknotexto{text-decoration: none;color: aqua;} a.linknotexto:hover{text-decor
 table{margin: auto;border-collapse: collapse;}
 td{border: 1px solid black;padding: 8px;}
 th{background-color: gray;color:white;border: 1px solid black; padding:5px;}
-tbody>tr:nth-child(2n){background-color: black;color: white;}
+tbody>tr:nth-child(2n){background-color: gray;color: white;}
