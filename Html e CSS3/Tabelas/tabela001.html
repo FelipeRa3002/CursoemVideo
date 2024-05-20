@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Primeira tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        table td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            /*Tem o vertical-align: com opções top bottom middle*/
+        } table td:hover{color:white;background-color: rgba(0, 0, 0, 0.5);}
+        table{
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+            border: 5px solid rebeccapurple;
+            margin: auto;
+        }
+        table tr.linha{
+              background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha Primeira tabela</h1>
+    <!--
+        Hierarquia de Tabelas(Simples)
+        Table= Tabela
+         Table Row= Linha de tabela
+            Table Header= Cabeçalho de tabela
+                Table Data= Dado de tabela
+    -->
+    <table>
+        <tr class="linha">
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="linha">
+            <td>a2</td>
+            <td>b2</td>
+            <td>c2</td>
+        </tr>
+        <tr class="linha">
+            <td>a3</td>
+            <td>b3</td>
+            <td>c3</td>
+        </tr>
+        <tr class="linha">
+            <td>a4</td>
+            <td>b4</td>
+            <td>c4</td>
+        </tr>
+    </table>
+</body>
+</html>
