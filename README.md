@@ -39,36 +39,36 @@
         <p>Essa tabela embaixo é do módulo 3</p>
         <table id="modulo3">
             <thead>
-            <tr>
-                <th>Exemplos</th>
-                <th>O link dos Exemplos</th>
-            </tr>
+                <tr>
+                    <th>Exemplos</th>
+                    <th>O link dos Exemplos</th>
+                </tr>
             </thead>
             <tbody>
-            <tr>
-                <td>Tabela 1</td>
-                <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/tabela001.html" target="_blank">Clicar Aqui</a></p></td>
-            </tr>
-            <tr>
-                <td>Tabela 2</td>
-                <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/tabela002.html" target="_blank">Clicar Aqui</a></p></td>
-            </tr>
-            <tr>
-                <td>Tabela 3</td>
-                <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/tabela003.html" target="_blank">Clicar Aqui</a></p></td>
-            </tr>
-            <tr>
-                <td>Tabela 4</td>
-                <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/tabela004.html" target="_blank">Clicar Aqui</a></p></td>
-            </tr>
-            <tr>
-                <td>Desafio 13</td>
-                <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/Desafio13.html" target="_blank">Clicar Aqui</a></p></td>
-            </tr>
-            <tr>
-                <td>Desafio 14</td>
-                <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/Desafio13.html" target="_blank">Clicar Aqui</a></p></td>
-            </tr>
+                <tr>
+                    <td>Tabela 1</td>
+                    <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/tabela001.html" target="_blank">Clicar Aqui</a></p></td>
+                </tr>
+                <tr>
+                    <td>Tabela 2</td>
+                    <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/tabela002.html" target="_blank">Clicar Aqui</a></p></td>
+                </tr>
+                <tr>
+                    <td>Tabela 3</td>
+                    <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/tabela003.html" target="_blank">Clicar Aqui</a></p></td>
+                </tr>
+                <tr>
+                    <td>Tabela 4</td>
+                    <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/tabela004.html" target="_blank">Clicar Aqui</a></p></td>
+                </tr>
+                <tr>
+                    <td>Desafio 13</td>
+                    <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/Desafio13.html" target="_blank">Clicar Aqui</a></p></td>
+                </tr>
+                <tr>
+                    <td>Desafio 14</td>
+                    <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/Desafio13.html" target="_blank">Clicar Aqui</a></p></td>
+                </tr>
             </tbody>
         </table>
        </article>
