@@ -35,6 +35,42 @@
             <center><img src="Html e CSS3/Projeto Cordel/Imagens/pattern001.png"></center>
         </abbr>
         <p class="linkparaverosite">link: <a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Projeto%20Cordel/cordel.html" target="_blank" class="projetohmtl">CLICAR AQUI</a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg></p>
+        <h2>Descrição</h2>
+        <p>Essa tabela embaixo é do módulo 3</p>
+        <table id="modulo3">
+            <thead>
+            <tr>
+                <th>Exemplos</th>
+                <th>O link dos Exemplos</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Tabela 1</td>
+                <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/tabela001.html" target="_blank">Clicar Aqui</a></p></td>
+            </tr>
+            <tr>
+                <td>Tabela 2</td>
+                <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/tabela002.html" target="_blank">Clicar Aqui</a></p></td>
+            </tr>
+            <tr>
+                <td>Tabela 3</td>
+                <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/tabela003.html" target="_blank">Clicar Aqui</a></p></td>
+            </tr>
+            <tr>
+                <td>Tabela 4</td>
+                <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/tabela004.html" target="_blank">Clicar Aqui</a></p></td>
+            </tr>
+            <tr>
+                <td>Desafio 13</td>
+                <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/Desafio13.html" target="_blank">Clicar Aqui</a></p></td>
+            </tr>
+            <tr>
+                <td>Desafio 14</td>
+                <td><p class="linkparaverosite"><a href="https://felipera3002.github.io/CursoemVideo/Html%20e%20CSS3/Tabelas/Desafio13.html" target="_blank">Clicar Aqui</a></p></td>
+            </tr>
+            </tbody>
+        </table>
        </article>
     </main>
     <footer> <p>O github do professor <a href="https://gustavoguanabara.github.io/" target="_blank">Gustavo Guanabara</a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFF55"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg> e o seu canal <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo/videos" id="linkdocanal" target="_blank">Curso em vídeo</a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFF55"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg></p>
