@@ -1,0 +1,14 @@
+@charset "UTF-8";
+*{margin: 0px;padding: 0px;font-family: Arial, Helvetica, sans-serif;}
+::-webkit-scrollbar{width: 0px;height: 0px;}
+img{width: 100vw;}
+a{display: block;font-weight: bolder;color: white;padding: 20px; background-color: darkred;text-align: center;text-decoration: none;}
+a:hover{background-color: rgb(223, 12, 12);}
+a#github{background-color: rgb(10, 92, 10);}
+a#github:hover{background-color: green;}
+a#instagram{background-color: palevioletred;}
+a#instagram:hover{background-color: rgb(231, 43, 106);}
+a#twitter{background-color: lightskyblue;}
+a#twitter:hover{background-color: blue;}
+a#facebook{background-color: blue;}
+a#facebook:hover{background-color: rgb(6, 6, 160);}
