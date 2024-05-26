@@ -70,3 +70,4 @@ div#tabela{display:block;margin:auto;borde: 4px solid lightgray;text-align:cente
 table{border-collapse: collapse;}
 td{border: 1px solid black;padding: 8px;}
 th{background-color: gray;color:white;border: 1px solid black; padding:5px;}
+div.imagem{text-align:center;}
