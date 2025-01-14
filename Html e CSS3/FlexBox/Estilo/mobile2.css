@@ -1,0 +1,19 @@
+@charset "UTF-8";
+header
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+header > nav{
+    flex-flow: row wrap;
+}
+header > nav > a{
+    margin: 10px;
+    width: 200px;
+    flex: 1 0 33%;
+}
+header > h1 {
+margin:  5px;
+}
