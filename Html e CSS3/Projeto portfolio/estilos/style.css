@@ -128,3 +128,36 @@ div#social a.Instagram_Link:hover{
   color: transparent;
 
 }
+
+/* configurações da seção detalhes */
+section#detalhes{
+  grid-column: 2;
+}
+article{
+  background-color: var(--fundo-card);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+article h2{
+  font-size: 1.3em;
+  color: var(--destaque);
+  margin-bottom: 10px;
+}
+/* configurações sobre como o vídeo deve ser exibido */
+.video-container{
+  position:relative;
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  border-radius: 8px;
+  aspect-ratio: 16/9;
+}
+.video-container iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
