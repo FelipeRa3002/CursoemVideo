@@ -22,6 +22,7 @@
   --destaque: #0077ff;
   --destaque-inverso: #66bbff;
   --fundo-card: #ffffff;
+  --letras-bonitas-nome-para-skills: "Dancing Script", cursive;
 }
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -161,3 +162,74 @@ article h2{
   height: 100%;
   border-radius: 20px;
 }
+
+/* configurações sobre article skills */ 
+#skill-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-bottom: .4em;
+}
+/* para telas maiores para skills */
+@media screen and (min-width: 768px){
+  #skill-container{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+/* fim da configuração para telas maiores do skills */
+
+/* configurações sobre o nome da habilidade, a porcentagem e a barra de progresso */
+#skill-container .info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#skill-container .nome{
+  font-family: var(--letras-bonitas-nome-para-skills);
+  font-weight: bold;
+  font-size: 1.3em;
+  color: var(--texto-cor);
+}
+#skill-container .porcent{
+  font-weight: bold;
+  color: var(--destaque);
+}
+#skill-container .barra{
+  width: 100%;
+  height: 8px;
+  background-color: var(--fundo-principal);
+  border-radius: 4px;
+  overflow: hidden;
+}
+#skill-container .progresso{
+  height: 100%;
+  background-color: var(--destaque-inverso);
+  transition: width 1s;
+  border-radius: 8px;
+}
+/* configurações da barra de progresso para itens especiais, com cores que combinam melhor com o nome da habilidade ou com o sentido da habilidade, vou usar ID nesse caso */
+#skill-container .progresso#html{
+  background-color: #e34c26;
+}
+#skill-container #html-logo{
+  color: #e34c26;
+}
+#skill-container .progresso#css{
+  background-color: #007bff;
+}
+#skill-container #css-logo{
+  color: #007bff;
+}
+#skill-container .progresso#javascript{
+  background-color: #f0db4f;
+}
+#skill-container #javascript-logo{
+  color: rgb(240, 219, 79);
+}
+#skill-container .progresso#php{
+  background-color: #474A8A;
+}
+#skill-container #php-logo{
+  color: #474A8A;
+}
+/*fim da configuração sobre o nome da habilidade, a porcentagem e a barra de progresso */
