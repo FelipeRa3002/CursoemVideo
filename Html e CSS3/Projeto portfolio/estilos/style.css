@@ -1,3 +1,7 @@
+/* Importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&display=swap');
+/* Fim da importação de fontes */
 /* 
   Variáveis para cores:
   --fundo-principal
@@ -21,9 +25,14 @@
   --texto-inverso: #ffffff;
   --destaque: #0077ff;
   --destaque-inverso: #66bbff;
+  --caso-destaque-inverso-fica-meio-ruim: #0f3d81;
   --fundo-card: #ffffff;
   --letras-bonitas-nome-para-skills: "Dancing Script", cursive;
+  --fonte-para-aviso: "BBH Hegarty", cursive;
 }
+/* Fim das variáveis do sistema */
+
+/* configurações do body */
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5em;
@@ -129,7 +138,28 @@ div#social a.Instagram_Link:hover{
   color: transparent;
 
 }
-
+/*configuração do aviso */
+.aviso{
+  font-size: 1.2em;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.aviso a{
+  text-decoration: none;
+  color: var(--texto-cor);
+  font-weight: bold;
+}
+.aviso a:hover{
+  color: var(--destaque);
+  text-decoration: underline;
+}
+.aviso z{
+  font-family: var(--fonte-para-aviso);
+  color: var(--destaque);
+  font-weight: bold;
+}
 /* configurações da seção detalhes */
 section#detalhes{
   grid-column: 2;
@@ -143,7 +173,7 @@ article{
 article h2{
   font-size: 1.3em;
   color: var(--destaque);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 /* configurações sobre como o vídeo deve ser exibido */
 .video-container{
@@ -233,3 +263,72 @@ article h2{
   color: #474A8A;
 }
 /*fim da configuração sobre o nome da habilidade, a porcentagem e a barra de progresso */
+
+/*configurações sobre a article formação */
+#formacao-container{
+  display: flex;
+  flex-direction:column-reverse;
+  gap: 20px;
+}
+
+/* informações de formação */
+#informacoes-formacao{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-bottom: 10px;
+  background-color: var(--fundo-card);
+  border-radius: 8px;
+  font-family: var(--letras-bonitas-nome-para-skills);
+}
+
+#informacoes-formacao h3{
+  font-weight: bold;
+  font-size: 1.7em;
+  color: var(--destaque-inverso);
+  text-align: center;
+}
+
+#informacoes-formacao #ano-inicio-e-conclusao{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#informacoes-formacao #nome-da-instituicao{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#informacoes-formacao #titulacao-escolar{
+  display: flex;
+  justify-content: flex-end;
+}
+/* Fim das configurações sobre informações de formação */
+
+#formacao-container .curso{
+  background-color: var(--fundo-principal);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 5px solid var(--destaque-inverso);
+  padding-left: 15px;
+  transition: border-left-width .5s , border-color 0.5s;
+}
+
+#formacao-container .curso:hover{
+ border-left-width: 15px;
+ cursor: pointer;
+ border-color: var(--destaque);
+}
+
+#formacao-container .periodo{
+  font-weight: bold;
+  font-size: .8em;
+  color: var(--texto-cor);
+}
+
+#formacao-container .instituicao{
+  font-weight: bold;
+  font-size: 1.1em;
+  color: var(--caso-destaque-inverso-fica-meio-ruim);
+}
