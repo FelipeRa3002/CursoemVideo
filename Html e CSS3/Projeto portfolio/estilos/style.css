@@ -332,3 +332,113 @@ article h2{
   font-size: 1.1em;
   color: var(--caso-destaque-inverso-fica-meio-ruim);
 }
+/* configurações para telas menores */
+@media screen and (max-width: 767px){
+  #informacoes-formacao,#informacoes-formacao #titulacao-escolar, #informacoes-formacao #nome-da-instituicao, #informacoes-formacao #ano-inicio-e-conclusao{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #formacao-container .curso{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+/* Fim das configurações para telas menores */
+
+/* configurações sobre a article projetos */
+#projeto-container{
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+#projeto-container .projeto{
+  background-color: var(--fundo-principal);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 20px 0px 0px 20px;
+  border-left: 5px solid var(--destaque-inverso);
+  padding: 10px;
+  transition: border-left-width .5s , border-color 0.5s;
+}
+
+#projeto-container .projeto:hover{
+  border-left-width: 15px;
+  cursor: pointer;
+  border-color: var(--destaque);
+}
+
+#projeto-container .foto{
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 5%;
+}
+
+/*configurações article dos projetos para telas maiores */
+@media screen and (min-width: 768px){
+  #projeto-container .projeto{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  #projeto-container .projeto-info{
+    width: 80%;
+  }
+  /*imagem do projeto */
+  #projeto-container .foto{
+    aspect-ratio: 1/1;
+    width: 20%;
+    max-height: 200px;
+  }
+}
+/* Fim das configurações article dos projetos para telas maiores */
+
+/* configurações as infromações do saiba mais dos projetos */
+#projeto-container .saiba-mais{
+  font-family: var(--letras-bonitas-nome-para-skills);
+  text-align: center;
+}
+#projeto-container .saiba-mais> h5{
+  font-size: 1.5em;
+  color: var(--destaque);
+  margin-bottom: 10px;
+}
+#projeto-container .saiba-mais> p , #projeto-container .saiba-mais li{
+  font-size: 1.2em;
+  color: var(--texto-cor);
+  margin-bottom: 10px;
+}
+#projeto-container .saiba-mais> ul{
+  list-style: decimal;
+  padding-left: 20px;
+}
+#projeto-container .saiba-mais .github-icone:hover{
+  color:black
+}
+/* Fim das configurações do saiba mais dos projetos */
+
+/*Configurações do footer */
+footer{
+  background-color: var(--destaque);
+  color: var(--texto-inverso);
+  padding: 15px;  
+  text-align: center;
+  margin-top: 20px;
+}
+footer a{
+  text-decoration: none;
+  color: var(--texto-inverso);
+  font-weight: bold;
+  transition: color 0.5s;
+}
+footer a:hover{
+  color: var(--texto-cor);
+  text-decoration: underline;
+}
+ /* Fim das configurações do footer */
