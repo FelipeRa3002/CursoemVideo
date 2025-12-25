@@ -31,7 +31,16 @@
   --fonte-para-aviso: "BBH Hegarty", cursive;
 }
 /* Fim das variáveis do sistema */
-
+/* configurações do body escuro */
+body.escuro{
+  --fundo-principal: #222222;
+  --texto-cor: #e0e0e0;
+  --texto-inverso: #333333;  
+  --destaque: #ff5522;
+  --destaque-inverso: #a73917;
+  --caso-destaque-inverso-fica-meio-ruim: #0aff70;
+  --fundo-card: #444444;
+}
 /* configurações do body */
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -445,3 +454,22 @@ footer a:hover{
   text-decoration: underline;
 }
  /* Fim das configurações do footer */
+
+ /*configurações gerais para tele maiores */
+@media screen and (min-width: 768px){
+  main{
+    grid-template-columns: auto 300px 1fr auto;
+  }
+
+  section#ficha{
+     grid-column: 2/span 1;
+     height: fit-content;
+     position: sticky;
+     top: 65px
+  }
+
+  section#detalhes{
+    grid-column: 3/span 1;
+  }
+}
+/* Fim das configurações gerais para tele maiores */
