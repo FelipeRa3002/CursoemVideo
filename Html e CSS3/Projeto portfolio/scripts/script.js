@@ -5,14 +5,23 @@ const body = document.body;
 const temasalvo = localStorage.getItem('tema');
 temaEscuro(temasalvo === 'escuro');
 
+// Função para ativar o tema claro
+function temaClaroAtivo() {
+  // Implemente a lógica para ativar o tema claro
+  let MudarCordosBotoes = document.querySelectorAll(".botoes-menu");
+    MudarCordosBotoes.forEach(botoes => {
+      botoes.style.color = 'black';
+    });
+}
 // Função para alternar entre tema claro e escuro
 function temaEscuro(tipo) {
   if (tipo == true) {
     body.classList.add('escuro');
-    botao.innerHTML = '<i class="fa-solid fa-sun"></i>';
+    botao.innerHTML = '<abbr title="Modo Claro"><i class="fa-solid fa-sun botoes-menu" style="color: black;"  onmouseenter="this.style.color=\'yellow\'" onmouseleave="this.style.color=\'black\'"></i></abbr>';
+    temaClaroAtivo();
   } else {
     body.classList.remove('escuro');
-    botao.innerHTML = '<i class="fa-solid fa-moon"></i>';
+    botao.innerHTML = '<abbr title="Modo Escuro"><i class="fa-solid fa-moon botoes-menu"></i></abbr>';
   }
 }
 
